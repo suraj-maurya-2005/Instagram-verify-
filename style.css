@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.box{
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container1{
+    margin: 70px;
+    margin-bottom: 0;
+}
+.container1 h2, .container2 h4{
+    letter-spacing: 0.5px;
+}
+.container2{
+    margin-top: 15px;
+    margin-left: 32px;
+}
+.container2 h4 button a {
+    text-decoration: none;
+    color: purple;
+    font-weight: bold;
+}
+
+.container3{
+    margin-top: 40px;
+}
+
+#email, #pass, #message, #instagramid{
+    height: 1.5cm;
+    width: 4in;
+    border: none;
+    border-radius: 17px;
+    background-color: #8b81814f;
+    padding: 15px;
+
+}
+#pass, #message, #instagramid{
+    margin-top: 20px;
+}
+
+#logi{
+    height: 1.5cm;
+    width: 4in;
+    border: none;
+    background-color: #009688;
+    margin-top: 62px;
+    border-radius: 20px;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: larger;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+#logi:active{
+    transform: scale(0.95);
+}

